@@ -1,0 +1,61 @@
+.home-section {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    &__favorites {
+        position: absolute;
+        right: 20px;
+        border: 1px solid #111827;
+        border-radius: 12px;
+        padding: 12px;
+    }
+}
+
+.home-header {
+    display: flex;
+    gap: 8px;
+    
+}
+
+.home-meta {
+    text-align: center;
+    font-size: 16px;
+}
+
+.home-random-ticket__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-color: #61DBFB;
+    border-radius: 12px;
+    padding: 8px;
+    gap: 4px;
+    margin-top: 16px;
+}
+
+.home-ticket {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+
+    &__input {
+        border: none;
+        border: 1px solid black;
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+    &__button {
+        font-size: 16px;
+        background-color: #61DBFB;
+        padding: 8px;
+        border-radius: 12px;
+    }
+}

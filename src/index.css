@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  margin: 0; 
+  font-family: 'Golos Text', sans-serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
